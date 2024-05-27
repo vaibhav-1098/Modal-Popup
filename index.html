@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Modal Pop-up</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .content{
+            width: 80vw;
+            position: fixed;
+            left: 0; right: 0;
+            margin: auto;
+        }
+        .modal{
+            visibility: hidden;
+            opacity: 0;
+            transition: 0.5s;
+            font-size: 1.1rem;
+        }
+        .open{
+            .modal{
+                opacity: 1;
+                visibility:visible;
+                transform: translateY(50%);
+            }
+            .para{
+                filter: blur(5px);
+            }
+        }
+    </style>
+</head><body>
+<!-- START -->
+    
+<h1 class="text-center m-4 text-3xl underline">Modal Pop-up</h1>
+
+<marquee class="bg-rose-600 p-2 text-white">
+    Pop-up will appear after 2s of scrolling
+</marquee>
+
+<!-- modal -->
+<div class="content z-20">
+    <div class="modal bg-yellow-300 p-3 mx-3 rounded-md text-center h-64 flex justify-evenly items-center flex-col">
+        <div class="m-2 text-center font-semibold bg-blue-400 px-2 py-1 rounded-sm text-white w-full">
+            SPECIAL OFFER
+        </div>
+        <p class="my-3">
+            Don't miss our exclusive special offer! Enjoy 20% off on all products storewide. Limited time only. Shop now and elevate your experience with top-quality items at unbeatable prices. Hurry, before it's gone!
+        </p>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" class="m-2 bg-emerald-500 px-2 py-1 rounded-sm text-white">
+            Get Offer Now ✨
+        </a>
+    </div>
+</div>
+
+<!-- paragraph -->
+<p class="para m-3 text-justify text-gray-700">
+
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut tenetur ipsa praesentium voluptas maxime culpa, repellat molestiae accusantium unde obcaecati modi illo rem suscipit doloribus neque eum nihil perferendis alias minima nam deserunt. Eaque ad nobis blanditiis odit debitis temporibus eum magni similique, rerum deserunt nisi possimus soluta eveniet quia unde ipsa voluptate doloribus accusamus est ullam voluptatem earum ex magnam. Deleniti quo numquam eius possimus eveniet quisquam quidem repellat eum hic ut harum voluptatum illo error, commodi dolore tenetur veritatis quos doloremque ducimus laboriosam consequatur? Est dolores possimus praesentium perferendis nemo, commodi numquam nihil cupiditate repellendus consequatur explicabo tempore iste dolor sapiente, magni voluptas quidem corrupti deserunt nisi ut fuga, accusamus eum soluta ipsa. Odit temporibus quos incidunt minima, aut magni quae omnis architecto ipsam numquam praesentium laborum tempora fugit porro? Ipsum, explicabo atque quis nam consequatur ut quibusdam quisquam aliquam rem cum odit sint corrupti, delectus perferendis.
+    <br><br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut tenetur ipsa praesentium voluptas maxime culpa, repellat molestiae accusantium unde obcaecati modi illo rem suscipit doloribus neque eum nihil perferendis alias minima nam deserunt. Eaque ad nobis blanditiis odit debitis temporibus eum magni similique, rerum deserunt nisi possimus soluta eveniet quia unde ipsa voluptate doloribus accusamus est ullam voluptatem earum ex magnam. Deleniti quo numquam eius possimus eveniet quisquam quidem repellat eum hic ut harum voluptatum illo error, commodi dolore tenetur veritatis quos doloremque ducimus laboriosam consequatur? Est dolores possimus praesentium perferendis nemo, commodi numquam nihil cupiditate repellendus consequatur explicabo tempore iste dolor sapiente, magni voluptas quidem corrupti deserunt nisi ut fuga, accusamus eum soluta ipsa. Odit temporibus quos incidunt minima, aut magni quae omnis architecto ipsam numquam praesentium laborum tempora fugit porro? Ipsum, explicabo atque quis nam consequatur ut quibusdam quisquam aliquam rem cum odit sint corrupti, delectus perferendis.
+    <br><br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid ut tenetur ipsa praesentium voluptas maxime culpa, repellat molestiae accusantium unde obcaecati modi illo rem suscipit doloribus neque eum nihil perferendis alias minima nam deserunt. Eaque ad nobis blanditiis odit debitis temporibus eum magni similique, rerum deserunt nisi possimus soluta eveniet quia unde ipsa voluptate doloribus accusamus est ullam voluptatem earum ex magnam. Deleniti quo numquam eius possimus eveniet quisquam quidem repellat eum hic ut harum voluptatum illo error, commodi dolore tenetur veritatis quos doloremque ducimus laboriosam consequatur? Est dolores possimus praesentium perferendis nemo, commodi numquam nihil cupiditate repellendus consequatur explicabo tempore iste dolor sapiente, magni voluptas quidem corrupti deserunt nisi ut fuga, accusamus eum soluta ipsa. Odit temporibus quos incidunt minima, aut magni quae omnis architecto ipsam numquam praesentium laborum tempora fugit porro? Ipsum, explicabo atque quis nam consequatur ut quibusdam quisquam aliquam rem cum odit sint corrupti, delectus perferendis.
+    <br><br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloremque exercitationem optio maiores delectus consequatur neque perferendis ab eveniet odio est impedit explicabo voluptatem nemo saepe ea veritatis voluptatibus ipsam esse provident fuga. Consequatur repudiandae architecto vero libero commodi. Ipsam ipsa facilis iure itaque alias. Cum, enim laudantium officia animi a expedita et quam laborum rem deleniti libero atque tempora molestias nobis dolores beatae, assumenda modi ut facilis. Blanditiis ea dolores mollitia nulla maiores reprehenderit totam id possimus, hic dolorem fugit, doloribus est itaque reiciendis natus accusamus modi excepturi? Eum autem error libero assumenda, fuga quasi rerum, voluptatum odio aliquam veritatis dicta nostrum officiis, quis atque minima dolorum quo! Optio, necessitatibus omnis. Placeat dolore ipsam quasi deserunt, id voluptas quaerat beatae facere, eos asperiores earum omnis doloremque saepe ducimus facilis? Ipsam porro laboriosam ipsa nesciunt soluta iure consequuntur placeat doloremque dolorum, odit facilis labore maiores possimus, tenetur doloribus, magni dolore?
+    <br><br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, doloremque exercitationem optio maiores delectus consequatur neque perferendis ab eveniet odio est impedit explicabo voluptatem nemo saepe ea veritatis voluptatibus ipsam esse provident fuga. Consequatur repudiandae architecto vero libero commodi. Ipsam ipsa facilis iure itaque alias. Cum, enim laudantium officia animi a expedita et quam laborum rem deleniti libero atque tempora molestias nobis dolores beatae, assumenda modi ut facilis. Blanditiis ea dolores mollitia nulla maiores reprehenderit totam id possimus, hic dolorem fugit, doloribus est itaque reiciendis natus accusamus modi excepturi? Eum autem error libero assumenda, fuga quasi rerum, voluptatum odio aliquam veritatis dicta nostrum officiis, quis atque minima dolorum quo! Optio, necessitatibus omnis. Placeat dolore ipsam quasi deserunt, id voluptas quaerat beatae facere, eos asperiores earum omnis doloremque saepe ducimus facilis? Ipsam porro laboriosam ipsa nesciunt soluta iure consequuntur placeat doloremque dolorum, odit facilis labore maiores possimus, tenetur doloribus, magni dolore?
+    
+</p>
+
+<footer class="bg-rose-500 text-white flex justify-center items-center h-16">
+    POP-UP
+</footer>
+
+
+
+<!-- END -->
+<script src="script.js"></script>
+</body></html>
